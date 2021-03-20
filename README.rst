@@ -2,13 +2,12 @@
 ratatype-bot-typewriter
 ===========
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 Bot that automatically passes the typing speed test on the website `ratatype.ru <https://ratatype.ru>`_
 
 ===========
 Как использовать?
 ===========
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Скачать geckodriver, и в typewriter_main использовать:
 
