@@ -1,7 +1,8 @@
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 
-class BitBot():
+
+class RatatypeBot():
 
 
     def __init__(self, driver, login, password, eval_mode=True):
@@ -111,5 +112,3 @@ class BitBot():
     def wait(self, timeout=5): WebDriverWait(self.driver, timeout=timeout)
 
     def quit(self): self.driver.quit()
-
-

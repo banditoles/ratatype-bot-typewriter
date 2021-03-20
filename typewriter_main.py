@@ -1,5 +1,5 @@
 from selenium import webdriver
-from BitBotClass import BitBot
+from ratatype_bot_typewriter.ratatype_bot import RatatypeBot
 
 login = ""
 password = ""
@@ -8,9 +8,10 @@ password = ""
 if __name__ == "__main__":
 
     # Создаем экземпляр бота
-    exBot = BitBot(webdriver.Firefox(), login, password)
+    exBot = RatatypeBot(webdriver.Firefox(executable_path='ratatype_bot_typewriter/driver/geckodriver'), login, password)
 
     try:
+
         # Авторизация
         exBot.authorization()
         print('Авторизация...')
@@ -23,5 +24,6 @@ if __name__ == "__main__":
         exBot.start_test()
 
     except Exception as Error:
+
         print(Error)
         exBot.start_eval_mode()
