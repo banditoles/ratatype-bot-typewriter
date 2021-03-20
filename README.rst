@@ -9,7 +9,7 @@ Bot that automatically passes the typing speed test on the website `ratatype.ru 
 ===========
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-Скачать geckodriver, и в typewriter_main использовать:
+Скачать `geckodriver <https://github.com/mozilla/geckodriver/releases/>`_, и в typewriter_main использовать:
 
 .. code-block:: python
 
