@@ -19,4 +19,5 @@ Bot that automatically passes the typing speed test on the website `ratatype.ru 
 Либо, если у вас Linux и уставновлен Firefox, то можно просто:
 
 .. code-block:: python
+
   BitBot(webdriver.Firefox(), login, password)
