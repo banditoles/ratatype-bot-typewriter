@@ -2,10 +2,12 @@
 ratatype-bot-typewriter
 =================================
 Bot that automatically passes the typing speed test on the website `ratatype.ru <https://ratatype.ru>`_
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 ======================
 Как использовать?
 ======================
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 
 В **typewriter_main.py** указать логин и пароль. (`Регистрация <https://www.ratatype.ru/signup/>`_)
